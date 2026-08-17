@@ -1,16 +1,73 @@
-# React + Vite
+# Web Development Agency
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack web development agency website built by two developers.
 
-Currently, two official plugins are available:
+The project is divided into:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Frontend → React
+- Backend → To be developed
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 👨‍💻 Team
 
-## Expanding the ESLint configuration
+### Frontend
+Responsible for:
+- Website UI
+- React components
+- CSS
+- Responsive design
+- Portfolio
+- Client-facing pages
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Backend
+Responsible for:
+- API
+- Form handling
+- Database
+- Enquiry management
+- Authentication if required
+- Admin functionality
+
+---
+
+# 🚀 Frontend Progress
+
+The basic frontend structure is currently completed.
+
+### Completed
+
+- [x] React + Vite setup
+- [x] Navbar
+- [x] Hero Section
+- [x] Services Section
+- [x] Portfolio Section
+- [x] About Us Section
+- [x] Contact Section
+- [x] Footer
+- [x] Desktop styling
+- [x] Mobile responsive layout
+- [x] Mobile hamburger menu
+- [x] WhatsApp enquiry functionality
+- [x] Reusable React components
+- [x] Portfolio cards using `.map()`
+
+---
+
+# 📁 Frontend Structure
+
+```text
+src/
+│
+├── components/
+│   ├── Navbar.jsx
+│   ├── Hero.jsx
+│   ├── Services.jsx
+│   ├── Portfolio.jsx
+│   ├── About.jsx
+│   ├── Contact.jsx
+│   └── Footer.jsx
+│
+├── App.jsx
+├── index.css
+└── main.jsx
