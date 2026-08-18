@@ -59,7 +59,13 @@ function Portfolio() {
 
               <p>{project.description}</p>
 
-              <a href="#contact">View Project →</a>
+              <a
+  href="https://nexfit-fitness-website.netlify.app"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  View Project →
+</a>
             </div>
           </div>
         ))}
